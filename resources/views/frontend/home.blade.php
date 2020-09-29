@@ -294,17 +294,17 @@
                 <div class="inner-right">
                 <div class="total-amount">
                     <p>Total Amount</p>
-                    <h2>10,00,000<span>INR</span></h2>
+                    <h2 class="total_amt"></h2>
                 </div>
                 <div class="emi-details">
                     <div class="monthly-emi">
                         <p>Monthly EMI</p>
-                    <h2>35,100<span>INR</span></h2>
+                        <h2 class="monthly_emi"></h2>
                     </div>
                     <!-- end of monthly-emi -->
                     <div class="interest-rate">
                         <p>Interest Amount</p>
-                    <h2>7000<span>INR</span></h2>
+                        <h2 class="interest_amt"></h2>
                     </div>
                     <!-- end of interest-rate -->
                 </div>
@@ -359,3 +359,9 @@
 </section>
 
 @include('frontend.layout.footer')
+
+<script>
+
+    
+
+</script>
